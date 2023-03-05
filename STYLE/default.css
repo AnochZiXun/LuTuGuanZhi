@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+/**
+ * 共用
+ */
+.clearFix,.clearFix:after,.clearFix:before{display:inline-block;float:none;clear:both;content:' '}
+.clearFix:after,.clearFix:before{visibility:hidden}
+A{text-decoration:none}
+IMG{border:0}
+BODY{
+	margin:0 auto;
+	width:960px;
+	color:#FFF;
+	background-color:#373737;
+	font:12px '微軟正黑體',arial;
+}
+
+/**
+ * 檔頭
+ */
+HEADER{position:relative}
+HEADER>*{margin:0}
+HEADER>H1{float:left;width:256px;height:100px;background-color:#2A2A2A}
+HEADER>H2{float:left;width:448px;height:100px;background:url(/IMG/title.png) no-repeat 50% 50%}
+HEADER>H3,HEADER>H4{float:left;width:256px;height:50px}
+HEADER>NAV{float:left;width:100%;height:32px;background-color:#EF7E00}
+HEADER>NAV>H5{margin:0 0 0 256px}
+HEADER>H6{margin:11px auto;position:absolute;top:0px;left:0;width:256px;height:132px;text-align:center}
+A.nav{padding:10px 6px;float:left;line-height:12px;color:#FFF;font-size:12px}
+A.nav:hover{color:#FF9}
+DIV#banner{float:left;height:320px}
+DIV#stripe{float:left;width:100%;height:7px;background-color:#EF7E00}
+
+DIV#qrCodes{margin:0;padding:0;float:left;width:256px;list-style:none;background-color:#2A2A2A;text-align:center}
+DIV#qrCodes A{color:#EFA900}
+DIV#qrCodes A>SPAN{display:block}
+SECTION{float:left;width:704px}
+DIV#articles{margin:16px}
+DIV#articles>HR{margin:8px 0;border-color:#EF7E00;height:3px}
+IFRAME#youtube{float:left}
+DIV#youtubes{float:left}
+A#bulletins{float:right}
